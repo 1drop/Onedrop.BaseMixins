@@ -1,3 +1,4 @@
+
 'Onedrop.BaseMixins:Mixin.Text':
   abstract: true
   properties:
@@ -17,10 +18,8 @@
             formatting:
               strong: true
               em: true
-              u: true
               sub: true
               sup: true
-              del: true
               p: true
               h1: true
               h2: true
