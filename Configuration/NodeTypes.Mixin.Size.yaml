@@ -1,0 +1,20 @@
+'Onedrop.BaseMixins:Mixin.Size':
+  abstract: true
+  properties:
+    size:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: content
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              sm:
+                label: i18n
+              md:
+                label: i18n
+              lg:
+                label: i18n

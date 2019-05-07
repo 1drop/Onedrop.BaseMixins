@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file original="" product-name="Onedrop.BaseMixins" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="properties.color">
+                <source xml:lang="en">Color</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.default">
+                <source xml:lang="en">Default</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.primary">
+                <source xml:lang="en">Primary</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.secondary">
+                <source xml:lang="en">Secondary</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.snow">
+                <source xml:lang="en">Snow</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.white">
+                <source xml:lang="en">White</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

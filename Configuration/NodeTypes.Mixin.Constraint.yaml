@@ -1,0 +1,5 @@
+'Onedrop.BaseMixins:Mixin.Constraint.Container':
+  abstract: true
+
+'Onedrop.BaseMixins:Mixin.Constraint.Page':
+  abstract: true

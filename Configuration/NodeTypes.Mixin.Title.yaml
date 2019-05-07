@@ -1,0 +1,28 @@
+'Onedrop.BaseMixins:Mixin.Title':
+  abstract: true
+  properties:
+    title:
+      type: string
+      defaultValue: '<h2>Enter headline here</h2>'
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            placeholder: '<h2>Enter headline here</h2>'
+            autoparagraph: false
+            linking:
+              anchor: true
+              title: true
+              relNofollow: true
+              targetBlank: true
+            formatting:
+              p: false
+              h1: true
+              h2: true
+              h3: true
+              h4: true
+              h5: true
+              h6: true
+              left: false
+              right: false
+              center: false

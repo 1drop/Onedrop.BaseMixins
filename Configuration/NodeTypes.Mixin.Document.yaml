@@ -1,0 +1,11 @@
+'Onedrop.BaseMixins:Mixin.Document':
+  abstract: true
+  superTypes:
+    'Neos.NodeTypes:Page': true
+    'Onedrop.BaseMixins:Mixin.DisableAutomaticFusionGeneration': true
+  childNodes:
+    main:
+      constraints:
+        nodeTypes:
+          '*': false
+          'Onedrop.BaseMixins:Mixin.Constraint.Page': true

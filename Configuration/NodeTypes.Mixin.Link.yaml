@@ -1,0 +1,11 @@
+'Onedrop.BaseMixins:Mixin.Link':
+  abstract: true
+  properties:
+    link:
+      type: string
+      ui:
+        label: 'Neos.NodeTypes.BaseMixins:NodeTypes.LinkMixin:properties.link'
+        reloadIfChanged: true
+        inspector:
+          group: content
+          editor: 'Neos.Neos/Inspector/Editors/LinkEditor'

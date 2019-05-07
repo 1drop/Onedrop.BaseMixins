@@ -1,0 +1,47 @@
+'Onedrop.BaseMixins:Mixin.Color':
+  abstract: true
+  properties:
+    color:
+      type: string
+      defaultValue: 'primary'
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: content
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions: &props
+            allowEmpty: true
+            values:
+              primary:
+                label: 'Onedrop.BaseMixins:NodeTypes.Mixin.Color:properties.color.selectBoxEditor.values.primary'
+              secondary:
+                label: 'Onedrop.BaseMixins:NodeTypes.Mixin.Color:properties.color.selectBoxEditor.values.secondary'
+
+'Onedrop.BaseMixins:Mixin.Color.Icon':
+  abstract: true
+  properties:
+    iconColor:
+      type: string
+      defaultValue: 'primary'
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: icon
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions: *props
+
+'Onedrop.BaseMixins:Mixin.Color.Background':
+  abstract: true
+  properties:
+    backgroundColor:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: content
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions: *props

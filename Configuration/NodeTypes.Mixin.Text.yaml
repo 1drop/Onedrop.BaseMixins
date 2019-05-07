@@ -1,0 +1,42 @@
+'Onedrop.BaseMixins:Mixin.Text':
+  abstract: true
+  properties:
+    text:
+      type: string
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            placeholder: '<p>Bavaria ipsum dolor sit amet mehra in da Heimatland. Oba liberalitas Bavariae a, Maßkruag? Schneid glei dahoam schoo oamoi g.</p>'
+            autoparagraph: true
+            linking:
+              anchor: true
+              title: true
+              relNofollow: true
+              targetBlank: true
+            formatting:
+              strong: true
+              em: true
+              u: true
+              sub: true
+              sup: true
+              del: true
+              p: true
+              h1: true
+              h2: true
+              h3: true
+              h4: true
+              h5: true
+              h6: true
+              pre: true
+              underline: true
+              strikethrough: true
+              removeFormat: true
+              left: true
+              right: true
+              center: true
+              justify: true
+              table: true
+              ol: true
+              ul: true
+              a: true

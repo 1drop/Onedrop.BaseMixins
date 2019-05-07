@@ -1,0 +1,10 @@
+'Onedrop.BaseMixins:Mixin.Image':
+  abstract: true
+  properties:
+    image:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Neos.NodeTypes.BaseMixins:NodeTypes.ImageMixin:properties.image'
+        reloadIfChanged: true
+        inspector:
+          group: content

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file original="" product-name="Onedrop.BaseMixins" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="properties.size">
+                <source>Size</source>
+                <target>Size</target>
+            </trans-unit>
+            <trans-unit id="properties.size.selectBoxEditor.values.sm">
+                <source>Small</source>
+                <target>Klein</target>
+            </trans-unit>
+            <trans-unit id="properties.size.selectBoxEditor.values.md">
+                <source>Medium</source>
+                <target>Mittel</target>
+            </trans-unit>
+            <trans-unit id="properties.size.selectBoxEditor.values.lg">
+                <source>Large</source>
+                <target>Groß</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

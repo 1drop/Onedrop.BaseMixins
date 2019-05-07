@@ -1,0 +1,16 @@
+'Onedrop.BaseMixins:Mixin.Content':
+  abstract: true
+  superTypes:
+    'Neos.Neos:Content': true
+    'Onedrop.BaseMixins:Mixin.DisableAutomaticFusionGeneration': true
+  ui:
+    inspector:
+      groups:
+        content:
+          label: i18n
+          icon: 'icon-edit'
+          position: 50
+        design:
+          label: i18n
+          icon: 'fas fa-pen-fancy'
+          position: 40
